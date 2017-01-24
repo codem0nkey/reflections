@@ -1,0 +1,29 @@
+Using the command "FS" on Windows command line makes it easy to spot differences in different versions of the same file than going through it manually.
+
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+Seeing how I was able to try solving a programming task as well as the final solution can help me realize proper programming.
+
+
+Manual commits should be done per reasonable size next logic step.  
+Manual commits in Git gives you the flexibility to save and compare appropriately with "commits" or version control.
+
+
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Since coding often requires changes to multiple files in order to fully implement a change, Git takes a snapshot of all files in your repository.
+
+
+How might using version control make you more confident to make changes that could break something?
+
+By using "git log" to view all available commits and "git checkout {commit code}" it is easy to switch between versions of code.
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I think it will be handy to launch notepad++ to start coding and then try different commits and roll between them.
+
+
+

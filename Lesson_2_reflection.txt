@@ -45,6 +45,8 @@ git log --graph --oneline master easy-mode
 
 git checkout -b (branch name) - This will create the branch as well as "enter" into the branch to start making changes on that branch.
 
+git branch -a   - view remote branches (branches created by other users)
+
 
 
 

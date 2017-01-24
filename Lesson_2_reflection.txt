@@ -1,0 +1,11 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+A git directory is created with no commits.
+
+Note: use "git init" to create a git w/ no commits.  use "git status" to see a list of files that have changes since the last commit.  
+In initial git w/ no commit, it lists all files in the directory.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The staging area is an intermediary step between the working directory that is not being tracked and a commit that is being tracked.  
+This offers the flexibility to add exactly which files you want to include into the staging area and ultimately into a commit.

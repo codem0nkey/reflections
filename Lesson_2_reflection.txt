@@ -15,7 +15,49 @@ This offers the flexibility to add exactly which files you want to include into 
 
 I can use "git diff" to check working dir against staging area.  
 I can use "git diff --staged" to check staging area against most recent commit.
-I can use git commit -m "message for commit" to create a new commit.
+I can use "git add (filename)" to add a file to staging area in order to be able to commit it.
+I can use git commit -m "message for commit" to create a new commit from what is in the staging area.
 
 These help me track changes I am making and ensure I put what I like into a commit.
+
+-What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+branches allow for different approaches or new feature attempts to be added, without fearing that your master branch will have any problems.
+
+useful commands:
+git diff - to check working dir against staging area.
+git branch - list branches
+git branch (branch name) - creates a new branch
+git checkout (branch name) - this will allow you to "enter" a branch and make changes in it, 
+							 which still need to be added to your staging area (the file with changes) and make a commit.
+git status 
+
+
+-How do the diagrams help you visualize the branch structure?
+
+Diagrams help you understand what each branch is based on from the master branch as well as which commits are reachable for each branch (to keep from getting lost).
+
+useful commands:
+
+git log --graph --oneline (branch_1) (branch_2)  -  This will show you the layout between 2 branches and where they connect to the main branch
+for example:
+git log --graph --oneline master easy-mode
+
+git checkout -b (branch name) - This will create the branch as well as "enter" into the branch to start making changes on that branch.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

@@ -47,6 +47,29 @@ git checkout -b (branch name) - This will create the branch as well as "enter" i
 
 git branch -a   - view remote branches (branches created by other users)
 
+-What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+They will combine the commits of both branches into the one master branch.  The resulting file is a combining of the code from both branches final commits.
+
+useful commands:
+
+git merge (branch1) (branch2) - merge 2 branches together.  For example: git merge master coins
+git show - This will show you the changes between the commit you are on and it's parent (without knowing the parent).
+git branch -d (branch) - This deletes a branch (only do this after a merge or that branch and it's commits will be gone).  For example: git branch -d coins
+
+
+-What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Auto merging allows for combining branches together, but sometimes when auto merging cannot determine what needs to happen it relies on a person to resolve merging "conflicts".
+
+Note: whatever active commit and branch you are on will "receive" the changes from the other branch.  Both branches will still exist unless you delete one of them after the merge.
+
+useful commands:
+
+git log -n 1  - shows only the most recent commit
+
+
+
 
 
 

@@ -1,1 +1,14 @@
-When would you want to use a remote repository rather than keeping all your work local?
+-When would you want to use a remote repository rather than keeping all your work local?
+
+When you are collaborating with others.  Or to act a a store house for official version while local version could be working on a updated version (publishing).
+
+-Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+You may not want other users or collaborators to see/use code that is still under development.  It could have bugs in it that you are still working out.
+
+useful commands:
+
+git push (name of remote repository) (local branch name to push)  - This will push the local branch you specify to GitHub
+git pull (name of remote repository) (remote branch name to pull) - This will pull down the remote branch you specify locally.
+
+

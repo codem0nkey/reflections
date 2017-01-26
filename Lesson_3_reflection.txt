@@ -11,4 +11,14 @@ useful commands:
 git push (name of remote repository) (local branch name to push)  - This will push the local branch you specify to GitHub
 git pull (name of remote repository) (remote branch name to pull) - This will pull down the remote branch you specify locally.
 
+-Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Branches are a sequential list of commits which can be local or remote.  
+Clones are a copy of repository (one or more branches).
+Forks are a GitHub to GitHub clone.
+
+useful commands:
+
+git clone https://github.com/codem0nkey/recipes - how to clone a repository from a GitHub link to my laptop (note: all files are created based on current git bash folder location)
+git remote -v   -  This will show you all currently setup remote repositories you can push or pull to/from.
 

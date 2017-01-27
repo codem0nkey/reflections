@@ -22,3 +22,18 @@ useful commands:
 git clone https://github.com/codem0nkey/recipes - how to clone a repository from a GitHub link to my laptop (note: all files are created based on current git bash folder location)
 git remote -v   -  This will show you all currently setup remote repositories you can push or pull to/from.
 
+-What is the benefit of having a copy of the last known state of the remote stored locally?
+
+It allows me to know if I am ahead or behind in commits between local and github.
+
+useful commands:
+
+git fetch
+git merge origin master
+
+These two commands can be the same as:
+
+git pull
+
+A fast-forward merge is a merge where commit B has A as an ancestor.
+

@@ -40,7 +40,14 @@ A fast-forward merge is a merge where commit B has A as an ancestor.
 -How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
 It would be more difficult to collaborate with GitHub.  Basic Version control could help if you came up with a numeric system, but
-identifying the changes and mergingthose changes would still be a challenge.
+identifying the changes and merging those changes would still be a challenge.
+
+
+-When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+Creating a separate branch can be useful when trying out a new feature but you want to keep the main "master branch" development also ongoing.
+Making changes only in the master branch is also good for working up to workable code.  Branches allow for mutliple users to collaborate in different ways.
+
 
 
 

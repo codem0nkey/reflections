@@ -49,6 +49,10 @@ Creating a separate branch can be useful when trying out a new feature but you w
 Making changes only in the master branch is also good for working up to workable code.  Branches allow for mutliple users to collaborate in different ways.
 
 
+Article on dealing with detached head:
+
+http://stackoverflow.com/questions/5772192/how-can-i-reconcile-detached-head-with-master-origin
+
 
 
 
